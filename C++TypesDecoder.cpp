@@ -16,7 +16,7 @@ vector<string> Tokenize(const string& Input)
 		while (1)
 		{
 			if (Input[j] == ' ')
-			{ ++j; continue; }
+			{ ++j; break; }
 
 			if (Input[j] == '[' || Input[j] == ']' || Input[j] == '(' || Input[j] == ')' || Input[j] == '*' || Input[j] == '&' || Input[j] == ';')
 			{
