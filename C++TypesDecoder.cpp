@@ -35,8 +35,6 @@ vector<string> Tokenize(const string& Input)
 
 			if (j == Input.length())
 				break;
-
-
 		}
 	}
 	return Result;
