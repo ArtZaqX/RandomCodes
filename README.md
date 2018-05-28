@@ -1,2 +1,2 @@
 # RandomCodes
-General and random project.
+General and random projects.
