@@ -69,8 +69,8 @@ string ParseTypes(vector<string> Tokens, string Identifier)
 					while (Tokens[i] != "(")
 						--i;
 
-				else if (Tokens[i] == Identifier)
-					continue;
+				/*else if (Tokens[i] == Identifier)
+					continue;*/
 
 				else if (Tokens[i] == "*")
 				{
